@@ -1,10 +1,7 @@
 # BingMapTutorial
 
-Show how to work with Microsoft bing map of Android
-
+Android app that demonstrates work with Microsoft bing map
 <br/>
-<br/>
-
 ### Features
 - Show a map using Bing or Openstreet map.
 - Collect geo location using location services and show an icon on the map with
