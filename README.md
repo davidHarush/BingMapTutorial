@@ -28,3 +28,6 @@ location changes.
 - Dexter: for requesting permissions
 - Bing Microsoft maps
 
+<br/>
+
+[Apk for download ](https://github.com/davidHarush/BingMapTutorial/raw/main/BingMapTutorial.apk)
