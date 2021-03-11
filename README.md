@@ -5,6 +5,7 @@ Show how to work with Microsoft bing map of Android
 <br/>
 <br/>
 
+### Features
 - Show a map using Bing or Openstreet map.
 - Collect geo location using location services and show an icon on the map with
 the current location.
