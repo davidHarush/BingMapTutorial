@@ -16,6 +16,7 @@ import com.david.haru.bingmaptutorial.util.isDarkThemeOn
 import com.microsoft.maps.*
 import java.util.*
 import java.util.concurrent.TimeUnit
+import kotlin.math.min
 
 
 class MapViewHelper(mapViewContainer: ViewGroup, lifecycle: Lifecycle) : LifecycleObserver {
@@ -51,7 +52,7 @@ class MapViewHelper(mapViewContainer: ViewGroup, lifecycle: Lifecycle) : Lifecyc
         Collections.sort(places.results, PlacesDistanceComparator(lastLocation))
 
         val mPinLayer = MapElementLayer()
-        places.results.subList(0, 5.coerceAtMost(5)).forEach { item ->
+        places.results.subList(0, 5.coerceAtMost(min(places.results.size,5))).forEach { item ->
             val pushpin = MapIcon().apply {
                 location = Geopoint(item.location)
                 title = item.name
