@@ -97,6 +97,7 @@ class MainActivity : AppCompatActivity() {
                 .withListener(object : PermissionListener {
                     override fun onPermissionGranted(response: PermissionGrantedResponse?) {
                         mapHelper.startTrackingUserLocation()
+                        locationViewModel.getLiveDataLocation()
                     }
 
                     override fun onPermissionRationaleShouldBeShown(
