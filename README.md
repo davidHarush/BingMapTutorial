@@ -3,12 +3,14 @@
 Android app that demonstrates work with Microsoft bing map
 <br/>
 ### Features
+
+- Support dark mode
 - Show a map using Bing or Openstreet map.
 - Collect geo location using location services and show an icon on the map with
 the current location.
 - Implement a restful API call to Google Places that get a list of nearby points of
 Interests.
-- Show the list of 5 points of interests on the map and update them when the
+- Show the 5 nearest points of interests on the map and update them when the
 location changes.
 
 ### Used technologies
