@@ -17,6 +17,7 @@ location changes.
 -  100% Kotlin
 -  Coroutines
 -  Dependency injection (with Hilt)
+-  View binding
 -  Mvvm
 
 ### 3 party library
