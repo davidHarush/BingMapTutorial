@@ -20,7 +20,7 @@ location changes.
 -  View binding
 -  Mvvm
 
-### 3 party library
+### 3rd party library
 
 - Hilt
 - Retrofit
